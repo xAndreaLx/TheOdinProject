@@ -1,0 +1,115 @@
+/* Petros Kal's solution for the Project Euler Project
+The Odin Project
+http://www.theodinproject.com/web-development-101/javascript-basics */
+p {
+	font-family: 'Lato', sans-serif;
+}
+html {
+	border: 2px solid yellow;
+	height: 99%;
+}
+body {
+	background-color: #2b2b2b;
+	height: 99%;
+}
+/*Header*/
+.header {
+	background-color: #2b2b2b;
+	height: 100px;
+	width: 100%;
+	border-top: 10px dotted yellow;
+}
+#logo {
+	margin-top: 2%;
+	margin-left: 5%;
+}
+#logo_odin img {
+	height: 3%;
+	width: 3%;
+	float: right;
+	margin-top: -3%;
+	margin-right: 5%;
+}
+/*Wrapper for page content to push down footer*/ 
+.wrapper {
+        min-height: 100%;
+        height: auto !important;
+        height: 100%;
+        /* Negative indent footer by it's height */
+        margin: 0 auto -9px;
+}
+/*Content*/
+.container {
+	height: auto;
+	width: 99%;
+	position: absolute;
+}
+	#con_left, #con_mid {
+		height: 99%;
+		width: 33.3%;
+		float: left;
+	}
+	#con_right {
+		height: 99%;
+		width: 33.3%;
+		float: right;
+	}
+#problem1, #problem2, #problem3 {
+	height: 50%%;
+	width: 90%;
+	margin-top: 10%;
+	margin-left: 5%;
+}
+	#pr1_content, #pr2_content, #pr3_content {
+		margin-top: 5%;
+	}
+	#problem1 p, #problem2 p, #problem3 p {
+		color: white;
+		text-align: center;
+	}
+	#pr1_header, #pr2_header, #pr3_header {
+		background-color: #6c6c6c;
+		height: 100%;
+		width: 100%;
+		border-top: 5px solid yellow;
+	}
+	#pr1_header p, #pr2_header p, #pr3_header p {
+		color: white;
+		font-size: 2em;
+		text-align: center;
+	}
+	#pr1_button, #pr2_button, #pr3_button {
+		background-color: #2b2b2b;
+		color: white;
+		font-size: 100%;
+		height: 50px;
+		width: 100%;
+	}
+	#pr1_button:hover, #pr2_button:hover, #pr3_button:hover {
+		background-color: yellow;
+		color: black;
+	}
+#pr1_result, #pr2_result, #pr3_result {
+	background-color: rgba(0, 0, 0, 0);
+	height: auto;
+	width: 90%;
+	margin-top: 10%;
+	margin-left: 5%;
+	border: 2px solid yellow;
+}
+	#pr1_input, #pr2_input, #pr3_input {
+		height: 50px;
+		width: 99%;
+		font-family: 'Lato', sans-serif;
+		font-size: 2em;
+		text-align: center;
+	}
+/*Footer*/
+.footer {
+	background-color: yellow;
+	height: 20px;
+}
+.footer p {
+	color: black;
+	text-align: center;
+}
