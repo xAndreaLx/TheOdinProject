@@ -1,4 +1,4 @@
-# My implementation of the Etch-a-Sketch project.
+# My implementation of the Etch-A-Sketch project.
 
 The Odin Project
 
