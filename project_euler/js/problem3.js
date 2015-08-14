@@ -23,7 +23,7 @@ function Lpf() {
     // return the largest prive factor in sieveArray.
     for (var idx = cutoffInteger; idx >= 2; idx--) {    
         if (sieveArray[idx] && x%idx === 0){
-            alert(idx)[1];
+            document.getElementById("result").innerHTML = idx;
         }
     }
 };

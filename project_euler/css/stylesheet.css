@@ -33,24 +33,21 @@ body {
 /*Wrapper for page content to push down footer*/ 
 .wrapper {
         min-height: 100%;
-        height: auto !important;
+        height: 100% !important;
         height: 100%;
         /* Negative indent footer by it's height */
         margin: 0 auto -9px;
 }
 /*Content*/
 .container {
-	height: auto;
+	height: 60%;
 	width: 99%;
-	position: absolute;
 }
 	#con_left, #con_mid {
-		height: 99%;
 		width: 33.3%;
 		float: left;
 	}
 	#con_right {
-		height: 99%;
 		width: 33.3%;
 		float: right;
 	}
@@ -68,13 +65,13 @@ body {
 		text-align: center;
 	}
 	#pr1_header, #pr2_header, #pr3_header {
-		background-color: #6c6c6c;
+		background-color: white;
 		height: 100%;
 		width: 100%;
 		border-top: 5px solid yellow;
 	}
 	#pr1_header p, #pr2_header p, #pr3_header p {
-		color: white;
+		color: black;
 		font-size: 2em;
 		text-align: center;
 	}
@@ -84,6 +81,7 @@ body {
 		font-size: 100%;
 		height: 50px;
 		width: 100%;
+		border-style: none;
 	}
 	#pr1_button:hover, #pr2_button:hover, #pr3_button:hover {
 		background-color: yellow;
@@ -99,10 +97,24 @@ body {
 }
 	#pr1_input, #pr2_input, #pr3_input {
 		height: 50px;
-		width: 99%;
+		width: 100%;
 		font-family: 'Lato', sans-serif;
 		font-size: 2em;
 		text-align: center;
+		box-sizing: border-box;
+	}
+.result_container {
+	height: auto;
+	width: 100%;
+}
+	#result {
+		background-color: white;
+		width: 50%;
+		font-family: 'Lato', sans-serif;
+		font-size: 2em;
+		color: black;
+		text-align: center;
+		margin: 0 0 0 25%;
 	}
 /*Footer*/
 .footer {

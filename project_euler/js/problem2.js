@@ -14,5 +14,5 @@ function Fibonacci() {
             evenSum += fibCurrent;
         }
     }
-    alert(evenSum);
+    document.getElementById("result").innerHTML = evenSum;
 };

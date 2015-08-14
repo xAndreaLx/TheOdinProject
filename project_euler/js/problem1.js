@@ -19,5 +19,5 @@ function Multiples() {
         multiple3 = 0;
         multiple5 = 0;
     }
-    alert(sum);
+    document.getElementById("result").innerHTML = sum;
 };
