@@ -5,6 +5,10 @@ http://www.theodinproject.com/web-development-101/javascript-and-jquery */
   font-family: 'Pacifico';
   src: url('../fonts/Pacifico.ttf');
 }
+a {
+	text-decoration: none;
+	color: white;
+}
 body {
 	background-color: #2b2b2b;
 }
@@ -61,7 +65,6 @@ table {
 	width: 100%;
 }
 .etchbody td {
-	height: 5%;
     border: 1px solid #383838;
 }
 .btn {

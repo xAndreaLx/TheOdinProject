@@ -1,6 +1,13 @@
 /* Petros Kal's solution for the Project Euler Project
 The Odin Project
 http://www.theodinproject.com/web-development-101/javascript-basics */
+@font-face {
+  font-family: 'Lato';
+  src: url('../fonts/Lato-Light.ttf');
+}
+a {
+	text-decoration: none;
+}
 p {
 	font-family: 'Lato', sans-serif;
 }

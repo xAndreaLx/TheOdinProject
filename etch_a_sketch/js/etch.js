@@ -61,4 +61,4 @@ function sketchGrid() {
 	$('td').mouseover(function() {
 		$(this).css("background-color", "white");
 	});
-}
+};
